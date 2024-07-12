@@ -1,0 +1,7 @@
+validations:
+- dataset: adsl
+  schema: ./src/schemas/adsl_schema.json
+  path: ./data/adsl.csv
+- dataset: adlbc
+  schema: ./src/schemas/adlbc_schema.json
+  path: ./data/adlbc.csv
