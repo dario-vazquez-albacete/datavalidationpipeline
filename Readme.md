@@ -61,7 +61,7 @@ validations:
 $python main.py
 ```
 * After you run the pipeline a log file called async_pipeline.log should appear in the root directory with the validation results and errors. You can also play around with the validation and change JSON schema or the datasets to observe how the pipeline validates it by looking at the resulting log file.
-* The pipeline will also create a new DuckDB database file called DataValidationDB01 where the schemas will be loaded into a table called Validations. You can also query this database using duckdb python package to read or update the schemas or metadata.
+* The pipeline will also output validated parquet files and a DuckDB database file called DataValidationDB01 where the schemas will be loaded into a table called Validations. You can also query this database using duckdb python package to read or update the schemas or metadata.
 
 ### Extending the pipeline
 
