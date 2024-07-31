@@ -51,7 +51,6 @@ $pip install -r requirements.txt
 
 ```
 validations:
-validations:
 - dataset: adsl
   schema: ./src/schemas/adsl_schema.json
   path: ./data/adsl.csv
@@ -86,3 +85,4 @@ Dario Vazquez (DAVA)
 
 * https://json-schema.org/draft-07/json-schema-release-notes
 * https://python-jsonschema.readthedocs.io/en/stable/
+* https://realpython.com/async-io-python/
